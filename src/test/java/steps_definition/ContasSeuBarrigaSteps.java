@@ -11,6 +11,7 @@ import page_objects.SeuBarrigaHomePage;
 
 
 public class ContasSeuBarrigaSteps extends BaseSteps {
+
     SeuBarrigaHomePage paginaInicial = new SeuBarrigaHomePage(browser);
     SeuBarrigaContasPage paginaContas  = new SeuBarrigaContasPage (browser);
 
