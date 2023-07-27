@@ -27,7 +27,7 @@ public class ContasListarPage extends BasePage {
 
     public void editarNome(){
         driver.findElement(inputNome).clear();
-        driver.findElement(inputNome).sendKeys("Mick Hill 2");
+        driver.findElement(inputNome).sendKeys("C6 Bank");
     }
 
     public void removerConta(){

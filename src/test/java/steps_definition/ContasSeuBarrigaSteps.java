@@ -35,7 +35,7 @@ public class ContasSeuBarrigaSteps extends BaseSteps {
 
     @E("o usuario inserir o nome da conta")
     public void oUsuarioInserirONomeDaConta() {
-        paginaContas.preencherNome("Mick Hill");
+        paginaContas.preencherNome("Nubank");
         screenshot();
     }
 
